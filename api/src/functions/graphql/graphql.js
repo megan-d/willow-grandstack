@@ -1,5 +1,5 @@
 // This module can be used to serve the GraphQL endpoint
-// as a lambda function
+// as a lambda function (what we use to deploy to netlify - configured in netlify build settings)
 
 const { ApolloServer } = require('apollo-server-lambda')
 import { Neo4jGraphQL } from '@neo4j/graphql'
